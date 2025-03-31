@@ -2,16 +2,6 @@
 
 A modular framework for building and training graph neural networks with support for both homogeneous and heterogeneous graphs.
 
-## Table of Contents
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Configuration](#configuration)
-- [Extending the Framework](#extending-the-framework)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Installation
 
 ```bash
@@ -26,7 +16,6 @@ venv\Scripts\activate     # Windows
 
 # Install dependencies
 pip install -r requirements.txt
-
 
 ## Usage
 

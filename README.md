@@ -1,6 +1,6 @@
 # Graph Machine Learning Framework
 
-A modular framework for building and training graph neural networks with support for both homogeneous and heterogeneous graphs.
+A modular framework for building and training graph neural networks throguh a json file, with support for both homogeneous and heterogeneous graphs.
 
 
 ## Installation

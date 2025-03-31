@@ -12,20 +12,6 @@ A modular framework for building and training graph neural networks with support
 - [Contributing](#contributing)
 - [License](#license)
 
-## Features
-
-### Core Functionality
-- Flexible graph construction pipeline
-- Support for multiple graph types (homogeneous/heterogeneous)
-- Model registry system for easy model switching
-- Configurable training strategies
-
-### Technical Highlights
-- Dynamic module loading system
-- Automatic heterogeneous graph conversion
-- Customizable data loaders
-- Extensible evaluation metrics
-
 ## Installation
 
 ```bash
@@ -44,7 +30,6 @@ pip install -r requirements.txt
 
 ## Usage
 
-### Basic Training
 ```bash
 # Train with default configuration
 python main.py --config configs/default.json

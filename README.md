@@ -3,7 +3,7 @@
 A modular framework for building and training graph neural networks with support for both homogeneous and heterogeneous graphs.
 
 ## Installation
-'''bash
+
 # Clone repository
 git clone https://github.com/yourusername/graph-ml-framework.git
 cd graph-ml-framework

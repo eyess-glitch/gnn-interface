@@ -1,9 +1,5 @@
 # Graph Machine Learning Framework
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-red)](https://pytorch.org/)
-[![PyG](https://img.shields.io/badge/PyTorch_Geometric-2.3%2B-green)](https://pytorch-geometric.readthedocs.io/)
-
 A modular framework for building and training graph neural networks with support for both homogeneous and heterogeneous graphs.
 
 ## Table of Contents

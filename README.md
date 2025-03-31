@@ -56,6 +56,6 @@ Here's an example of a config.json file:
   "evaluation": {
     "metrics": ["accuracy"]
 }
-
+'''
 ## Extension
 You can extend the framework by implementing other models, loss, data_loader etc. 

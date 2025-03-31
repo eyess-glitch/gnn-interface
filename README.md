@@ -49,6 +49,7 @@ Here's an example of a config.json file:
   },
   "evaluation": {
     "metrics": ["accuracy"]
+  }
 }
-'''
+
 

@@ -17,6 +17,7 @@ python run.py --config path/to/your_config.json
 
 An example of config.json file can be found below
 
+'''
 {
   "data": {
     "graph_type": "homogenous",
@@ -35,3 +36,4 @@ An example of config.json file can be found below
     "learning_rate": 0.01
   }
 } 
+'''

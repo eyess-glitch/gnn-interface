@@ -17,3 +17,6 @@ venv\Scripts\activate     # Windows
 
 # Install dependencies
 pip install -r requirements.txt
+
+## Usage
+python run.py --config path/to/config.json

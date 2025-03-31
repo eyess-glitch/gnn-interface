@@ -21,9 +21,7 @@ pip install -r requirements.txt
 ## Usage
 python run.py --config path/to/config.json
 
-Here's an example of a config.json file
-
-<details> <summary><strong>
+Here's an example of a config.json file:
 
 {
   "data": {
@@ -58,4 +56,6 @@ Here's an example of a config.json file
   "evaluation": {
     "metrics": ["accuracy"]
 }
-</strong></summary>
+
+## Extension
+You can extend the framework by implementing other models, loss, data_loader etc. 

@@ -1,9 +1,8 @@
-# Graph Machine Learning Framework
+# Overview
 
-A modular framework for building and training graph neural networks, with support for both homogeneous and heterogeneous graphs.
-
-
-## Installation
+A modular framework for building and training Graph Neural Networks (GNNs). It provides a high-level interface to define datasets, models, and training parameters via JSON configuration files — supporting both homogeneous and heterogeneous graphs with minimal setup.
+ 
+# Installation
 
 ```bash
 # Clone repository
@@ -12,44 +11,6 @@ cd graph-ml-framework
 # Install dependencies
 pip install -r requirements.txt
 
-## Usage
-python run.py --config path/to/config.json
 
-Here's an example of a config.json file:
-
-{
-  "data": {
-    "graph_type": "homogenous",
-    "folder_path": "./data/cora_dataset",
-    "data_loader": "cora_loader",
-    "batch_size": 32,
-    "train_ratio": 0.8,
-    "val_ratio": 0.1,
-    "test_ratio": 0.1,
-    "shuffle": true
-  },
-  "model": {
-    "model_name": "GAT",
-    "input_dim": 1433,
-    "hidden_dim": 64,
-    "output_dim": 7,
-    "num_heads": 8,
-    "dropout": 0.6,
-    "num_layers": 2
-  },
-  "training": {
-    "task": "classification",
-    "epochs": 200,
-    "learning_rate": 0.005,
-    "weight_decay": 0.0005,
-    "early_stopping": {
-      "patience": 20,
-      "min_delta": 0.001
-    },
-  },
-  "evaluation": {
-    "metrics": ["accuracy"]
-  }
-}
 
 

@@ -4,9 +4,9 @@ A modular framework for building and training Graph Neural Networks (GNNs). It p
  
 # Installation
 
-bash
+```
 git clone https://github.com/yourusername/gnn-interface.git
 cd gnn-interface
 pip install -r requirements.txt
-
+```
 

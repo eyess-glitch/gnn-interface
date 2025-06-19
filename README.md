@@ -4,13 +4,8 @@ A modular framework for building and training Graph Neural Networks (GNNs). It p
  
 # Installation
 
-```bash
-# Clone repository
-git clone https://github.com/yourusername/graph-ml-framework.git
-cd graph-ml-framework
-# Install dependencies
+git clone https://github.com/yourusername/gnn-interface.git
+cd gnn-interface
 pip install -r requirements.txt
-'''
-
 
 
